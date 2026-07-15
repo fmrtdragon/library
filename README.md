@@ -4,6 +4,9 @@
 ---
 
 ## 📂 目录结构说明
+# 目录结构说明
+
+```plaintext
 Dragon_Library/
 ├── Architecture/
 │   ├── ARM/
@@ -38,6 +41,7 @@ Dragon_Library/
     ├── VCS/
     ├── Verdi/
     └── VIP/
+```
 
 Dragon_Library/
 ├── Architecture/ # 指令集架构 (ISA)
