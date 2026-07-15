@@ -5,6 +5,41 @@
 
 ## 📂 目录结构说明
 Dragon_Library/
+├── Architecture/
+│   ├── ARM/
+│   ├── MIPS/
+│   └── RISC_V/
+├── Hardware/
+│   ├── Microarchitecture/
+│   │   ├── Bus_Protocol/
+│   │   │   └── CHI/
+│   │   ├── MianPipeline/
+│   │   ├── Prediction/
+│   │   │   ├── Branch/
+│   │   │   ├── Data/
+│   │   │   ├── Instr/
+│   │   │   ├── LoadStore/
+│   │   │   ├── Total/
+│   │   │   └── way/
+│   │   └── Quantification/
+├── Software/
+│   └── Tool_Usage/
+│       └── Cadence/
+│           ├── Genus/
+│           ├── Palladium/
+│           └── Xcelium/
+└── Synopsys/
+    ├── DC_Design_Compiler/
+    ├── FC_Fusion_Compiler/
+    ├── Formality/
+    ├── PT_PrimeTime/
+    ├── SpyGlass/
+    ├── StarRC/
+    ├── VCS/
+    ├── Verdi/
+    └── VIP/
+
+Dragon_Library/
 ├── Architecture/ # 指令集架构 (ISA)
 │ ├── ARM/ # ARM 架构文档、手册、笔记
 │ ├── MIPS/ # MIPS 架构相关资料
